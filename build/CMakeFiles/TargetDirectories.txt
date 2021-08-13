@@ -1,7 +1,0 @@
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/install/strip.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/install/local.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/install.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/list_install_components.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/rebuild_cache.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/edit_cache.dir
-/home/fraser/ControlSLAM/ORB_SLAM3-PythonBindings/build/CMakeFiles/orbslam3.dir
