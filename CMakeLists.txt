@@ -75,5 +75,5 @@ execute_process (
 )
 message("Installing orbslam3 library to ${conda_dir}")
 
-set(CONDA_INSTALL_DIR ${conda_dir}/lib/python3.6/site-packages)
+set(CONDA_INSTALL_DIR /opt/conda/envs/orbslam3/lib/python3.6/site-packages)
 install(TARGETS ${TARGET_MODULE_NAME} DESTINATION ${CONDA_INSTALL_DIR})
