@@ -69,11 +69,5 @@ if (Pangolin_FOUND)
   target_link_libraries(${TARGET_MODULE_NAME} ${Pangolin_LIBRARIES})
 endif()
 
-execute_process (
-    COMMAND bash -c "dirname $(dirname $(which python))"
-    OUTPUT_VARIABLE conda_dir
-)
-message("Installing orbslam3 library to ${conda_dir}")
-
 set(CONDA_INSTALL_DIR /opt/conda/envs/orbslam3/lib/python3.6/site-packages)
 install(TARGETS ${TARGET_MODULE_NAME} DESTINATION ${CONDA_INSTALL_DIR})
