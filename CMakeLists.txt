@@ -69,14 +69,9 @@ if (Pangolin_FOUND)
   target_link_libraries(${TARGET_MODULE_NAME} ${Pangolin_LIBRARIES})
 endif()
 
-# Get active conda env
 execute_process (
     COMMAND bash -c "dirname $(dirname $(which python))"
-    OUTPUT_VARIABLE CONDA_DIR
+    OUTPUT_VARIABLE conda_dir
 )
-message("CONDA_DIR = ${CONDA_DIR}")
-# install(TARGETS ${TARGET_MODULE_NAME} DESTINATION ${CONDA_DIR}/lib/python3.5/site-packages)
-install(TARGETS ${TARGET_MODULE_NAME} DESTINATION /home/fraser/miniconda3/envs/ControlSLAM/lib/python3.6/site-packages)
-
-install(TARGETS ${TARGET_MODULE_NAME} DESTINATION lib/python3.5/dist-packages)
-
+message("Installing orbslam3 library to ${conda_dir}")
+install(TARGETS ${TARGET_MODULE_NAME} DESTINATION ${conda_dir}/lib/python3.6/site-packages)
