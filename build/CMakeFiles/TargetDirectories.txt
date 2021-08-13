@@ -1,0 +1,7 @@
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/install/strip.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/edit_cache.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/orbslam3.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/list_install_components.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/install/local.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/rebuild_cache.dir
+/ORB_SLAM3-PythonBindings/build/CMakeFiles/install.dir
