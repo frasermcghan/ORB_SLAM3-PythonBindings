@@ -29,9 +29,9 @@ else()
 endif()
 
 find_package(OpenCV REQUIRED)
-find_package(PythonLibs 3.5 REQUIRED)
+find_package(PythonLibs 3.6 REQUIRED)
 find_package(NumPy)
-find_package(Boost 1.45.0 REQUIRED COMPONENTS python-py35)
+find_package(Boost 1.45.0 REQUIRED COMPONENTS python-py36)
 find_package(ORB_SLAM3 REQUIRED)
 find_package(Pangolin)
 
